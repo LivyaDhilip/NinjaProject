@@ -1,0 +1,4899 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 23, 2023 09:21:14 p.m.</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@tagarraypracticesquare</a><a class="dropdown-item" href="#">@tagtreeImplementation</a><a class="dropdown-item" href="#">@tagDataStructure</a><a class="dropdown-item" href="#">@tagStackImplementation</a><a class="dropdown-item" href="#">@tagtreeImplementationBinary</a><a class="dropdown-item" href="#">@tagarraybasic</a><a class="dropdown-item" href="#">@tagimplementlist</a><a class="dropdown-item" href="#">@tagcreatelink</a><a class="dropdown-item" href="#">@tagTraversal</a><a class="dropdown-item" href="#">@tagarraypracticeeven</a><a class="dropdown-item" href="#">@tagImplementationOperations</a><a class="dropdown-item" href="#">@tagLogin</a><a class="dropdown-item" href="#">@tagtreeApplications</a><a class="dropdown-item" href="#">@tagDeletion</a><a class="dropdown-item" href="#">@tagtreeBinaryTrees</a><a class="dropdown-item" href="#">@tagRegistration</a><a class="dropdown-item" href="#">@tagarray</a><a class="dropdown-item" href="#">@taglinkedlist</a><a class="dropdown-item" href="#">@tagarraypractice</a><a class="dropdown-item" href="#">@tagImplementationarray</a><a class="dropdown-item" href="#">@tagStackApplications</a><a class="dropdown-item" href="#">@tagarraypracticesearch</a><a class="dropdown-item" href="#">@taggraph</a><a class="dropdown-item" href="#">@taggraphrep</a><a class="dropdown-item" href="#">@tagtreeTypes</a><a class="dropdown-item" href="#">@taglinkIntro</a><a class="dropdown-item" href="#">@tagImplementation</a><a class="dropdown-item" href="#">@tagtreeTraversals</a><a class="dropdown-item" href="#">@tag</a><a class="dropdown-item" href="#">@tag1</a><a class="dropdown-item" href="#">@tagtreeBinary</a><a class="dropdown-item" href="#">@tagtreeBinarySearch</a><a class="dropdown-item" href="#">@tagarrayapplications</a><a class="dropdown-item" href="#">@tagtreeTerminologies</a><a class="dropdown-item" href="#">@tagtreeBinaryTraversals</a><a class="dropdown-item" href="#">@tagtreeBST</a><a class="dropdown-item" href="#">@tagarraypracticemax</a><a class="dropdown-item" href="#">@tagHome</a><a class="dropdown-item" href="#">@tagtree</a><a class="dropdown-item" href="#">@tagInsertion</a><a class="dropdown-item" href="#">@tagtreeIllustration</a><a class="dropdown-item" href="#">@tagarraylist</a><a class="dropdown-item" href="#">@tagImplementationdeque</a><a class="dropdown-item" href="#">@tagStackOperations</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HomePage</p>
+            <p class="text-sm">
+              <span>9:21:18 p.m.</span> / <span>00:00:02:408</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">HomePage</h5>
+<span class='badge badge-success'>01.23.2023 9:21:18 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:21:20 p.m.</span>
+<span class='badge badge-default'>00:00:02:408</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User validates Home page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.user_navigates_to_the_dsportalapp_webpage(java.lang.String)">
+                <span>Given user navigates to the dsportalapp webpage "https://dsportalapp.herokuapp.com/"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.user_clicks_on_get_started_button_in_Home()">
+                <span>When user clicks on Get Started button in Home</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.the_user_clicks_on_data_structures_dropdown()">
+                <span>Then The user clicks on data structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.the_user_select_any_one_of_the_dropdown_menu()">
+                <span>When The user select any one of the dropdown menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.it_should_alert_the_user_with_the_message(java.lang.String)">
+                <span>Then It should Alert the user with the message "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.the_user_click_any_of_the_get_started_button_in_home_page()">
+                <span>When The user click any of the Get started button in home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.it_should_alert_the_user_with_the_message2(java.lang.String)">
+                <span>Then It should Alert the user with the message2 "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.the_user_click_on_register()">
+                <span>When The user click on Register</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaHomePage.the_user_should_be_redirected_to_register_page()">
+                <span>Then The user should be redirected to Register page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Register</p>
+            <p class="text-sm">
+              <span>9:21:21 p.m.</span> / <span>00:00:06:465</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Register</h5>
+<span class='badge badge-success'>01.23.2023 9:21:21 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:21:27 p.m.</span>
+<span class='badge badge-default'>00:00:06:465</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Create a new user via the dsportalapp Portal</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Create a new user via the dsportalapp Portal</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the dsportalapp page url "https://dsportalapp.herokuapp.com/"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on Get Started button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on 'Register' link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user enter the Livyakumar43 ,LiviDhil@123 and LiviDhil@123</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on the 'Register' button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on 'Sign Out link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user will see a message 'Logged out successfully' and user is signed out</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>9:21:27 p.m.</span> / <span>00:00:01:549</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>01.23.2023 9:21:27 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:21:29 p.m.</span>
+<span class='badge badge-default'>00:00:01:549</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Sign In with the Registered user in dsportalapp Portal</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Sign In with the Registered user in dsportalapp Portal</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to the dsportalapp Login page "https://dsportalapp.herokuapp.com/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on SignIn link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter the Livyakumar31andLiviDhil@123</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicks on the Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should be logged in</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DataStructure</p>
+            <p class="text-sm">
+              <span>9:21:29 p.m.</span> / <span>00:00:07:654</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">DataStructure</h5>
+<span class='badge badge-success'>01.23.2023 9:21:29 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:21:37 p.m.</span>
+<span class='badge badge-default'>00:00:07:654</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>User validate DataStructure Introduction page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.the_user_navigates_to_home_page(java.lang.String)">
+                <span>Given The user navigates to Home Page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.user_click_on_get_started_button_in_data_structure_page()">
+                <span>When user click on Get started button in Data Structure page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.it_should_navigate_to_corresponding_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding page with title "Data Structures-Introduction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.user_click_on_time_complexity_link()">
+                <span>When user click on Time Complexity link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.it_should_navigate_to_corresponding_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding page with title "Time Complexity"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.user_click_on_try_here_button()">
+                <span>When user click on Try here button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.it_should_navigate_to_corresponding_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.user_enter_the_code()">
+                <span>When user enter the code</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.click_on_run_button()">
+                <span>And click on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.click_on_back_button()">
+                <span>And click on back button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaDataStructure.user_is_navigated_to_home_page(java.lang.String)">
+                <span>Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Array</p>
+            <p class="text-sm">
+              <span>9:21:37 p.m.</span> / <span>00:00:11:110</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Array</h5>
+<span class='badge badge-success'>01.23.2023 9:21:37 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:21:48 p.m.</span>
+<span class='badge badge-default'>00:00:11:110</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>User validates Array Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.the_user_is_in_ninja_home_page_to_navigate_to_array_page(java.lang.String)">
+                <span>Given The user is in Ninja home page to navigate to Array Page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_get_started_button_under_array()">
+                <span>Then click on Get started button under array</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_array_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Array page with title "Array"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_arrays_in_phython_link()">
+                <span>When user click on Arrays in Phython link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_arrays_in_python_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Arrays in Python page with title "Arrays in Python"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_try_here_in_arrays_in_python_page()">
+                <span>Then user click on Try here in Arrays in Python page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_arrays_in_python_assessment_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Arrays in Python Assessment page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_enter_the_python_code_in_arrays_in_python_page()">
+                <span>When user enter the Python code in Arrays in Python page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_arrays_in_python_assessment_page()">
+                <span>And click on run button in Arrays in Python Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigates_back_to_arrays_in_python_page()">
+                <span>Then User navigates back to Arrays in Python page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>User validate Arrays using list page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_arrays_using_list()">
+                <span>When User click on Arrays using list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_arrays_using_list_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Arrays Using List page with title "Arrays Using List"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_try_here_in_arrays_using_list_page()">
+                <span>Then user click on Try here in Arrays Using List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_arrays_using_list_assessment_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Arrays Using List Assessment page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_enter_the_python_code_in_arrays_using_list_page()">
+                <span>When user enter the Python code in Arrays Using List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_arrays_using_list_assessment_page()">
+                <span>And click on run button in Arrays Using List Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_arrays_using_list_page()">
+                <span>Then User navigate back to Arrays Using List page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>User validate Basic Operations in list page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_basic_operations_in_list()">
+                <span>When User click on Basic Operations in list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_operations_in_list_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Operations in list page with title "Basic Operations in Lists"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_try_here_in_operations_in_list_page()">
+                <span>Then user click on Try here in Operations in list page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_operations_in_list_assessment_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Operations in list Assessment page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_enter_the_python_code_in_operations_in_list_page()">
+                <span>When user enter the Python code in Operations in list page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_operations_in_list_assessment_page()">
+                <span>And click on run button in Operations in list Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_operations_in_list_page()">
+                <span>Then User navigate back to Operations in list page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>User validate Applications of Array page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_applications_of_array()">
+                <span>When User click on Applications of Array</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_applications_of_array_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Applications of Array page with title "Applications of Array"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_try_here_in_applications_of_array_page()">
+                <span>Then user click on Try here in Applications of Array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_applications_of_array_assessment_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Applications of Array Assessment page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_enter_the_python_code_in_applications_of_array_page()">
+                <span>When user enter the Python code in Applications of Array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_applications_of_array_page()">
+                <span>And click on run button in Applications of Array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_applications_of_array_page()">
+                <span>Then User navigate back to Applications of Array page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="87"><span class="badge log pass-bg mr-2">Pass</span>User validate Practice Questions page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_practice_questions()">
+                <span>When user click on Practice Questions</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_practice_questions_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Practice Questions page with title "Practice Questions"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>User validates Search the array page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_search_the_array_link()">
+                <span>When user click on Search the array link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_search_the_array_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Search the array page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_enter_the_python_code_in_search_the_array_page()">
+                <span>When user enter the Python code in Search the array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_search_the_array_page()">
+                <span>And click on run button in Search the array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_search_the_array_page()">
+                <span>Then User navigate back to Search the array page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="98"><span class="badge log pass-bg mr-2">Pass</span>User validates Max Consecutive Ones page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_clicks_on_max_consecutive_ones_link()">
+                <span>When user clicks on Max Consecutive Ones link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_max_consecutive_ones_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Max Consecutive Ones page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_clear_the_text_and_enter_the_python_code_in_max_consecutive_ones_page()">
+                <span>When user clear the text and enter the Python code in Max Consecutive Ones page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_max_consecutive_ones_assessment_page()">
+                <span>And click on run button in Max Consecutive Ones Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_max_consecutive_ones()">
+                <span>Then User navigate back to Max Consecutive Ones</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>User validate Even Number page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_find_numbers_with_even_number_of_digits()">
+                <span>When user click on Find Numbers with Even Number of Digits</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_even_number_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Even Number page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_clear_the_text_and_enter_the_python_code_in_even_number_assessment_page()">
+                <span>When user clear the text and enter the Python code in Even Number Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_even_number_page()">
+                <span>And click on run button in Even Number page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_navigate_back_to_even_number_page()">
+                <span>Then User navigate back to Even Number page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="112"><span class="badge log pass-bg mr-2">Pass</span>User validate Sorted Array page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_click_on_find_numbers_with_squares_of_a_sorted_array()">
+                <span>When user click on Find Numbers with Squares of  a Sorted Array</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.it_should_navigate_to_corresponding_sorted_array_page_with_title(java.lang.String)">
+                <span>And It should navigate to corresponding Sorted Array page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_clear_the_text_and_enter_the_python_code_in_sorted_array_assessment_page()">
+                <span>When user clear the text and enter the Python code in Sorted Array Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.click_on_run_button_in_sorted_array_page()">
+                <span>And click on run button in Sorted Array page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaArray.user_is_navigated_to_home_page_from_sorted_array_page(java.lang.String)">
+                <span>Then user is navigated to home page from Sorted Array page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="119"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Linklist</p>
+            <p class="text-sm">
+              <span>9:21:48 p.m.</span> / <span>00:00:13:313</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Linklist</h5>
+<span class='badge badge-success'>01.23.2023 9:21:48 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:22:01 p.m.</span>
+<span class='badge badge-default'>00:00:13:313</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=119</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="120"><span class="badge log pass-bg mr-2">Pass</span>User validates LinkList Introduction page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.the_user_is_in_ninja_home_page(java.lang.String)">
+                <span>Given The user is in Ninja home page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_get_started_button_on_linklist()">
+                <span>When user click on Get Started button on Linklist</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Linked List"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_introduction_link()">
+                <span>When user click on Introduction link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title_Introduction(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title Introduction "Introduction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_introduction_page()">
+                <span>When user click on Try here button in Introduction page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title_assessment(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title Assessment "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_the_code_in_linklist_assesement_page()">
+                <span>When user enter the code in linklist assesement page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_linklist_assesement_page()">
+                <span>And click on run button in linklist assesement page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_linklist_assesement_page()">
+                <span>Then User navigate back from linklist assesement page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="132"><span class="badge log pass-bg mr-2">Pass</span>User validates Creating Linked List page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_creating_linked_list()">
+                <span>When user click on Creating Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Creating Linked LIst"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_linked_list_page()">
+                <span>When user click on Try here button in Linked List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_the_code_in_creating_linked_list_page()">
+                <span>When user enter the code in Creating Linked List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_creating_linked_list_page()">
+                <span>And click on run button in Creating Linked List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_creating_linked_list_page()">
+                <span>Then User navigate back from Creating Linked List page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="141"><span class="badge log pass-bg mr-2">Pass</span>User validate Types of Linked List page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_types_of_linked_list()">
+                <span>When user click on Types of Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Types of Linked List"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_types_of_linked_list()">
+                <span>When user click on Try here button in Types of Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_code_in_types_of_linked_list()">
+                <span>When user enter code in Types of Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_types_of_linked_list()">
+                <span>And click on run button in Types of Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_types_of_linked_list()">
+                <span>Then User navigate back from Types of Linked List</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log pass-bg mr-2">Pass</span>User validate Implement Linked List in Python page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_implement_linked_list_in_python()">
+                <span>When user click on Implement Linked List in Python</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Implement Linked List in Python"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_implement_linked_list()">
+                <span>When user click on Try here button in Implement Linked List</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_code_in_implement_linked_list_page()">
+                <span>When user enter code in Implement Linked List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_implement_linked_list_page()">
+                <span>And click on run button in Implement Linked List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_implement_linked_list_page()">
+                <span>Then User navigate back from Implement Linked List page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>User validate Traversal page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_traversal_link()">
+                <span>When user click on Traversal link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Traversal"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_traversal_link_page()">
+                <span>When user click on Try here button in Traversal link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_the_code_in_traversal_link_page()">
+                <span>When user enter the code in Traversal link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_traversal_link_page()">
+                <span>And click on run button in Traversal link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_traversal_link_page()">
+                <span>Then User navigate back from Traversal link page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="168"><span class="badge log pass-bg mr-2">Pass</span>User validate Insertion page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_insertion_link()">
+                <span>When user click on Insertion link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Insertion"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_insertion_link_page()">
+                <span>When user click on Try here button in Insertion link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_code_in_insertion_link_page()">
+                <span>When user enter code in Insertion link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_insertion_link_page()">
+                <span>And click on run button in Insertion link page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_insertion_link_page()">
+                <span>Then User navigate back from Insertion link page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="177"><span class="badge log pass-bg mr-2">Pass</span>User validate Deletion page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_deletion_link()">
+                <span>When user click on Deletion link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Deletion"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_click_on_try_here_button_in_deletion_page()">
+                <span>When user click on Try here button in Deletion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.it_should_navigate_to_appropriate_page_with_title(java.lang.String)">
+                <span>Then It should navigate to appropriate page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_enter_the_code_in_in_deletion_page()">
+                <span>When user enter the code in in Deletion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.click_on_run_button_in_deletion_page()">
+                <span>And click on run button in Deletion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaLinkedList.user_navigate_back_from_deletion_page()">
+                <span>Then User navigate back from Deletion page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="186"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Stack</p>
+            <p class="text-sm">
+              <span>9:22:01 p.m.</span> / <span>00:00:04:395</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Stack</h5>
+<span class='badge badge-success'>01.23.2023 9:22:01 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:22:06 p.m.</span>
+<span class='badge badge-default'>00:00:04:395</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=186</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="187"><span class="badge log pass-bg mr-2">Pass</span>User validates Stack page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.the_user_is_in_ninja_home_page_Stack(java.lang.String)">
+                <span>Given The user is in Ninja home page Stack "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_clicks_on_get_started_button_under_stack()">
+                <span>When user clicks on Get Started button under Stack</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_corresponding_stack_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding stack page with title "Stack"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_clicks_on_the_link_operations_in_stack()">
+                <span>When user clicks on the link Operations in Stack</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_corresponding_operations_stack_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding Operations stack page with title "Operations in Stack"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_click_on_try_here_link_in_operations_in_stack_page()">
+                <span>When user click on Try here link in Operations in Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_operations_in_stack_assessment_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Operations in Stack Assessment page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_enters_the_code_in_stack_page()">
+                <span>When user enters the code in Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.click_on_run_button_in_stack_page()">
+                <span>And click on run button in Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_navigate_back_in_stack_page()">
+                <span>Then User navigate back in Stack page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="199"><span class="badge log pass-bg mr-2">Pass</span>User validates Implementation page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_click_on_implementation_link_in_stack_page()">
+                <span>When user click on Implementation link in Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_corresponding_implementation_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding Implementation page with title "Implementation"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_click_on_try_here_link_in_implementation_stack_page()">
+                <span>When user click on Try here  link in Implementation-Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_implementation_stack_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation-stack page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_enters_the_code_in_implementation_page()">
+                <span>When user enters the code in Implementation page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.click_on_run_button_in_implementation_page()">
+                <span>And click on run button in Implementation page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_navigate_back_in_implementation_page()">
+                <span>Then User navigate back in Implementation page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="208"><span class="badge log pass-bg mr-2">Pass</span>User validates Applications page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_click_on_applications_link_in_stack_page()">
+                <span>When user click on Applications link in Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_corresponding_applications_page_with_title(java.lang.String)">
+                <span>Then It should navigate to corresponding Applications page with title "Applications"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_click_on_try_here_link_in_applications_stack_page()">
+                <span>When user click on Try here link in Applications-Stack page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.it_should_navigate_to_applications_stack_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Applications-stack page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_enters_the_code_in_applications_page()">
+                <span>When user enters the code in Applications page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.click_on_run_button_in_applications_page()">
+                <span>And click on run button in Applications page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaStack.user_is_navigated_to_home_page_from_stack_page(java.lang.String)">
+                <span>Then user is navigated to home page from stack page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="217"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Queue</p>
+            <p class="text-sm">
+              <span>9:22:06 p.m.</span> / <span>00:00:04:902</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Queue</h5>
+<span class='badge badge-success'>01.23.2023 9:22:06 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:22:11 p.m.</span>
+<span class='badge badge-default'>00:00:04:902</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=217</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="218"><span class="badge log pass-bg mr-2">Pass</span>User validates Implementation of Queue in Python page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.the_user_is_in_ninja_home_page_Queue(java.lang.String)">
+                <span>Given The user is in Ninja home page Queue "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_get_started_button_under_queue()">
+                <span>When user clicks on Get Started button under Queue</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigates_to_corresponding_page_with_title(java.lang.String)">
+                <span>And It should navigates to corresponding page with title Queue "Queue"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_implementation_of_queue_in_python()">
+                <span>When user clicks on Implementation of Queue in Python</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_try_here()">
+                <span>When user clicks on Try here</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigate_to_corresponding_page_with_title_queue(java.lang.String)">
+                <span>And It should navigate to corresponding page with title Queue "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_enters_the_code_in_implementation_of_queue_in_python_assessment_page()">
+                <span>When user enters the code in Implementation of Queue in Python Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.clicks_on_run_button()">
+                <span>And clicks on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_navigates_back()">
+                <span>Then User navigates back</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="229"><span class="badge log pass-bg mr-2">Pass</span>User validates Implementation using collections.deque page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_implementation_using_collections_deque()">
+                <span>When user clicks on Implementation using collections.deque</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigate_to_corresponding_page_with_title_queue_deque(java.lang.String)">
+                <span>And It should navigate to corresponding page with title Queue deque "Implementation using collections.deque"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_try_here_link()">
+                <span>When user clicks on Try here link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigate_to_corresponding_page_with_title_queue_deque_assessment()">
+                <span>And It should navigate to corresponding page with title Queue deque"Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_enters_the_code_in_implementation_using_collections_deque_assessment_page()">
+                <span>When user enters the code in Implementation using collections.deque Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.clicks_on_run_button()">
+                <span>And clicks on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_navigates_back()">
+                <span>Then User navigates back</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="238"><span class="badge log pass-bg mr-2">Pass</span>User validates Implementation using array page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_click_on_implementation_using_array()">
+                <span>When user click on Implementation using array</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigates_to_corresponding_page_with_title_array(java.lang.String)">
+                <span>And It should navigates to corresponding page with title array "Implementation using array"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_try_here_link()">
+                <span>When user clicks on Try here link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigate_to_corresponding_page_with_title_array(java.lang.String)">
+                <span>And It should navigate to corresponding page with title array "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_enters_the_code_in_implementation_using_array_assessment_page()">
+                <span>When user enters the code in Implementation using array Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.clicks_on_run_button()">
+                <span>And clicks on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_navigates_back()">
+                <span>Then User navigates back</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="247"><span class="badge log pass-bg mr-2">Pass</span>User validates Queue Operations page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_queue_operations_link()">
+                <span>When user clicks on Queue Operations link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigate_to_corresponding_page_with_title_operations(java.lang.String)">
+                <span>And It should navigate to corresponding page with title operations "Queue Operations"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_clicks_on_try_here()">
+                <span>When user clicks on Try here</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.it_should_navigates_to_corresponding_page_with_title_operations(java.lang.String)">
+                <span>And It should navigates to corresponding page with title operations "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_enters_the_code_in_queue_operations_assessment_page()">
+                <span>When user enters the code in Queue Operations Assessment page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.clicks_on_run_button()">
+                <span>And clicks on run button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaQueue.user_navigates_back_to_home_page(java.lang.String)">
+                <span>Then User navigates back to home page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="256"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tree</p>
+            <p class="text-sm">
+              <span>9:22:11 p.m.</span> / <span>00:00:16:289</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Tree</h5>
+<span class='badge badge-success'>01.23.2023 9:22:11 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:22:27 p.m.</span>
+<span class='badge badge-default'>00:00:16:289</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=256</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="257"><span class="badge log pass-bg mr-2">Pass</span>User validates Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.the_user_is_in_ninja_home_page_to_navigate_to_tree_page(java.lang.String)">
+                <span>Given The user is in Ninja home page to navigate to Tree Page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_get_started_button_under_tree_section()">
+                <span>When user click on Get Started button under Tree section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_tree_page_with_title(java.lang.String)">
+                <span>And It should navigate to Tree page with title "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_overview_of_trees()">
+                <span>When user click on Overview of Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_overview_of_trees_page_with_title(java.lang.String)">
+                <span>And It should navigate to Overview of Trees page with title "Overview of Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_overview_of_trees_page()">
+                <span>When user click on Try here in Overview of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_overview_of_trees_page_with_title(java.lang.String)">
+                <span>And It should navigate to Overview of Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_overview_of_trees_page()">
+                <span>When user enter the Python code in Overview of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_overview_of_trees_page()">
+                <span>And click on run button in Overview of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_overview_of_trees()">
+                <span>Then User navigate back to Overview of Trees</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="269"><span class="badge log pass-bg mr-2">Pass</span>User validates Terminologies page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_terminologies_link()">
+                <span>When user click on Terminologies link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_terminologies_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Terminologies page with title "Terminologies"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_terminologies_page()">
+                <span>When user click on Try here in Terminologies page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_terminologies_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Terminologies page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_terminologies_page()">
+                <span>When user enter the Python code in Terminologies page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_terminologies_page()">
+                <span>And click on run button in Terminologies page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_terminologies_page()">
+                <span>Then User navigate back to Terminologies page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="278"><span class="badge log pass-bg mr-2">Pass</span>User validates Types of Trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_types_of_trees_link()">
+                <span>When user click on Types of Trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_types_of_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Types of Trees page with title "Types of Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_types_of_trees_page()">
+                <span>When user click on Try here in Types of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_types_of_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Types of Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_types_of_trees_page()">
+                <span>When user enter the Python code in Types of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_types_of_trees_page()">
+                <span>And click on run button in Types of Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_types_of_trees_page()">
+                <span>Then User navigate back to Types of Trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="287"><span class="badge log pass-bg mr-2">Pass</span>User validates Tree Traversals page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_tree_traversals_link()">
+                <span>When user click on Tree Traversals link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_tree_traversals_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Tree Traversals page with title "Tree Traversals"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_tree_traversals_page()">
+                <span>When user click on Try here in Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_tree_traversals_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Tree Traversals page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_tree_traversals_page()">
+                <span>When user enter the Python code in Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_tree_traversals_page()">
+                <span>And click on run button in Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_tree_traversals_page()">
+                <span>Then User navigate back to Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="296"><span class="badge log pass-bg mr-2">Pass</span>User validates Traversals-Illustration page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_traversals_illustration_link()">
+                <span>When user click on Traversals-Illustration link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_traversals_illustration_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Traversals-Illustration page with title "Traversals-Illustration"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_traversals_illustration_page()">
+                <span>When user click on Try here in Traversals-Illustration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_traversals_illustration_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Traversals-Illustration page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_traversals_illustration_page()">
+                <span>When user enter the Python code in Traversals-Illustration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_traversals_illustration_page()">
+                <span>And click on run button in Traversals-Illustration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_traversals_illustration_page()">
+                <span>Then User navigate back to Traversals-Illustration page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="305"><span class="badge log pass-bg mr-2">Pass</span>User validates Binary Trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_binary_trees_link()">
+                <span>When user click on Binary Trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Trees page with title "Binary Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_binary_trees_page()">
+                <span>When user click on Try here in Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_binary_trees_page()">
+                <span>When user enter the Python code in Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_binary_trees_page()">
+                <span>And click on run button in Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_binary_trees_page()">
+                <span>Then User navigate back to Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="314"><span class="badge log pass-bg mr-2">Pass</span>User validate Types of Binary Trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_types_of_binary_trees_link()">
+                <span>When user click on Types of Binary Trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_types_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Types of Binary Trees page with title "Types of Binary Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_types_of_binary_trees_page()">
+                <span>When user click on Try here in Types of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_types_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Types of Binary Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_types_of_binary_trees_page()">
+                <span>When user enter the Python code in Types of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_types_of_binary_trees_page()">
+                <span>And click on run button in Types of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_types_of_binary_trees_page()">
+                <span>Then User navigate back to Types of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="323"><span class="badge log pass-bg mr-2">Pass</span>User validate Implementation in Python page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_implementation_in_python_link()">
+                <span>When user click on Implementation in Python link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_in_python_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation in Python page with title "Implementation in Python"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_implementation_in_python_page()">
+                <span>When user click on Try here in Implementation in Python page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_in_python_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation in Python page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_implementation_in_python_page()">
+                <span>When user enter the Python code in Implementation in Python page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_implementation_in_python_page()">
+                <span>And click on run button in Implementation in Python page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_implementation_in_python_page()">
+                <span>Then User navigate back to Implementation in Python page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="332"><span class="badge log pass-bg mr-2">Pass</span>User validate Binary Tree Traversals page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_binary_tree_traversals_link()">
+                <span>When user click on Binary Tree Traversals link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_tree_traversals_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Tree Traversals page with title "Binary Tree Traversals"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_binary_tree_traversals_page()">
+                <span>When user click on Try here in Binary Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_tree_traversals_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Tree Traversals page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_binary_tree_traversals_page()">
+                <span>When user enter the Python code in Binary Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_binary_tree_traversals_page()">
+                <span>And click on run button in Binary Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_binary_tree_traversals_page()">
+                <span>Then User navigate back to Binary Tree Traversals page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="341"><span class="badge log pass-bg mr-2">Pass</span>User validate Implementation of Binary Trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_implementation_of_binary_trees_link()">
+                <span>When user click on Implementation of Binary Trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation of Binary Trees page with title "Implementation of Binary Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_implementation_of_binary_trees_page()">
+                <span>When user click on Try here in Implementation of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation of Binary Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_implementation_of_binary_trees_page()">
+                <span>When user enter the Python code in Implementation of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_implementation_of_binary_trees_page()">
+                <span>And click on run button in Implementation of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_implementation_of_binary_trees_page()">
+                <span>Then User navigate back to Implementation of Binary Trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="350"><span class="badge log pass-bg mr-2">Pass</span>User validate Applications of Binary trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_applications_of_binary_trees_link()">
+                <span>When user click on Applications of Binary trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_applications_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Applications of Binary trees page with title "Applications of Binary trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_applications_of_binary_trees_page()">
+                <span>When user click on Try here in Applications of Binary trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_applications_of_binary_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Applications of Binary trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_applications_of_binary_trees_page()">
+                <span>When user enter the Python code in Applications of Binary trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_applications_of_binary_trees_page()">
+                <span>And click on run button in Applications of Binary trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_applications_of_binary_trees_page()">
+                <span>Then User navigate back to Applications of Binary trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="359"><span class="badge log pass-bg mr-2">Pass</span>User validate Binary Search Trees page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_binary_search_trees_link()">
+                <span>When user click on Binary Search Trees link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_search_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Search Trees page with title "Binary Search Trees"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_binary_search_trees_page()">
+                <span>When user click on Try here in Binary Search Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_binary_search_trees_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Binary Search Trees page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_binary_search_trees_page()">
+                <span>When user enter the Python code in Binary Search Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_binary_search_trees_page()">
+                <span>And click on run button in Binary Search Trees page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_navigate_back_to_binary_search_trees_page()">
+                <span>Then User navigate back to Binary Search Trees page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="368"><span class="badge log pass-bg mr-2">Pass</span>User validate Implementation Of BST page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_implementation_of_bst_link()">
+                <span>When user click on Implementation Of BST link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_of_bst_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation Of BST page with title "Implementation Of BST"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_click_on_try_here_in_implementation_of_bst_page()">
+                <span>When user click on Try here in Implementation Of BST page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.it_should_navigate_to_implementation_of_bst_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Implementation Of BST page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_enter_the_python_code_in_implementation_of_bst_page()">
+                <span>When user enter the Python code in Implementation Of BST page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.click_on_run_button_in_implementation_of_bst_page()">
+                <span>And click on run button in Implementation Of BST page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaTree.user_is_navigated_to_home_page_from_implementation_of_bst(java.lang.String)">
+                <span>Then user is navigated to home page from Implementation Of BST "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="377"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Graph</p>
+            <p class="text-sm">
+              <span>9:22:27 p.m.</span> / <span>00:00:02:520</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Graph</h5>
+<span class='badge badge-success'>01.23.2023 9:22:27 p.m.</span>
+<span class='badge badge-danger'>01.23.2023 9:22:30 p.m.</span>
+<span class='badge badge-default'>00:00:02:520</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=377</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="378"><span class="badge log pass-bg mr-2">Pass</span>User validates Get Started On Graph page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.the_user_is_in_ninja_home_page_to_navigate_to_graph_page(java.lang.String)">
+                <span>Given The user is in Ninja home page to navigate to graph Page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_click_on_get_started_button_on_graph()">
+                <span>When user click on Get Started button on Graph</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.it_should_navigate_to_graph_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Graph page with title "Graph"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_click_on_graph_link()">
+                <span>When user click on Graph link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_click_on_try_here()">
+                <span>When user click on Try here</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.it_should_navigate_to_graph_assessement_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Graph Assessement page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_enter_the_python_code_in_graph_page()">
+                <span>When user enter the Python code in graph page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.click_on_run_button_in_graph_page()">
+                <span>And click on run button in graph page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_navigate_back_from_graph_page()">
+                <span>Then User navigate back from  graph page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="389"><span class="badge log pass-bg mr-2">Pass</span>User validate Graph Representations page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_click_on_graph_representations_link()">
+                <span>When user click on Graph Representations link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.it_should_navigate_to_graph_representations_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Graph Representations page with title "Graph Representations"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_click_on_try_here_in_graph_representations_page()">
+                <span>When user click on Try here in Graph Representations page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.it_should_navigate_to_graph_representations_page_with_title(java.lang.String)">
+                <span>Then It should navigate to Graph Representations page with title "Assessment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_enter_the_python_code_in_graph_representations_page()">
+                <span>When user enter the Python code in Graph Representations page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.click_on_run_button_in_graph_representations_page()">
+                <span>And click on run button in Graph Representations page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.ninjaGraph.user_is_navigated_to_home_page_from_graph_representations_page(java.lang.String)">
+                <span>Then user is navigated to home page from Graph Representations page "https://dsportalapp.herokuapp.com/home"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">44</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraypracticesquare</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraypracticesquare</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:46 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='112'>User validate Sorted Array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Sorted Array page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeImplementation</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeImplementation</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:19 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='323'>User validate Implementation in Python page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation in Python page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagDataStructure</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagDataStructure</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:29 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='33' id='34'>User validate DataStructure Introduction page</a>
+<div class="">
+<span class="badge badge-default">DataStructure.User validate DataStructure Introduction page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagStackImplementation</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagStackImplementation</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:03 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='199'>User validates Implementation page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Implementation page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeImplementationBinary</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeImplementationBinary</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:22 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='341'>User validate Implementation of Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation of Binary Trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraybasic</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraybasic</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:40 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='69'>User validate Basic Operations in list page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Basic Operations in list page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagimplementlist</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagimplementlist</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:54 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='150'>User validate Implement Linked List in Python page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Implement Linked List in Python page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagcreatelink</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagcreatelink</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:50 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='132'>User validates Creating Linked List page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validates Creating Linked List page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagTraversal</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagTraversal</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:56 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='159'>User validate Traversal page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Traversal page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraypracticeeven</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraypracticeeven</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:45 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='105'>User validate Even Number page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Even Number page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagImplementationOperations</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagImplementationOperations</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:09 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='247'>User validates Queue Operations page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Queue Operations page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagLogin</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagLogin</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:27 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='24' id='26'>Sign In with the Registered user in dsportalapp Portal</a>
+<div class="">
+<span class="badge badge-default">Login.Sign In with the Registered user in dsportalapp Portal</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeApplications</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeApplications</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:23 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='350'>User validate Applications of Binary trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Applications of Binary trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagDeletion</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagDeletion</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:59 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='177'>User validate Deletion page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Deletion page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeBinaryTrees</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeBinaryTrees</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:18 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='314'>User validate Types of Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Types of Binary Trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagRegistration</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagRegistration</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:21 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='13' id='15'>Create a new user via the dsportalapp Portal</a>
+<div class="">
+<span class="badge badge-default">Register.Create a new user via the dsportalapp Portal</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarray</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarray</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:37 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='48'>User validates Array Page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Array Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@taglinkedlist</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@taglinkedlist</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:52 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='141'>User validate Types of Linked List page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Types of Linked List page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraypractice</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraypractice</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:42 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='87'>User validate Practice Questions page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Practice Questions page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagImplementationarray</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagImplementationarray</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:08 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='238'>User validates Implementation using array page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation using array page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagStackApplications</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagStackApplications</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:04 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='208'>User validates Applications page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Applications page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraypracticesearch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraypracticesearch</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:43 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='91'>User validates Search the array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Search the array page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@taggraph</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@taggraph</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:27 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='377' id='378'>User validates Get Started On Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph.User validates Get Started On Graph page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@taggraphrep</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@taggraphrep</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:28 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='377' id='389'>User validate Graph Representations page</a>
+<div class="">
+<span class="badge badge-default">Graph.User validate Graph Representations page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeTypes</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeTypes</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:14 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='278'>User validates Types of Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Types of Trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@taglinkIntro</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@taglinkIntro</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:48 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='120'>User validates LinkList Introduction page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validates LinkList Introduction page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagImplementation</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagImplementation</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:06 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='218'>User validates Implementation of Queue in Python page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation of Queue in Python page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeTraversals</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeTraversals</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:15 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='287'>User validates Tree Traversals page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Tree Traversals page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>40</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">40 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>40 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:18 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User validates Home page</a>
+<div class="">
+<span class="badge badge-default">HomePage.User validates Home page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:29 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='33' id='34'>User validate DataStructure Introduction page</a>
+<div class="">
+<span class="badge badge-default">DataStructure.User validate DataStructure Introduction page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:37 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='48'>User validates Array Page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Array Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:39 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='60'>User validate Arrays using list page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Arrays using list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:40 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='69'>User validate Basic Operations in list page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Basic Operations in list page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:41 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='78'>User validate Applications of Array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Applications of Array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:42 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='87'>User validate Practice Questions page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Practice Questions page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:43 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='91'>User validates Search the array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Search the array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:44 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='98'>User validates Max Consecutive Ones page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Max Consecutive Ones page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:45 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='105'>User validate Even Number page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Even Number page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:46 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='112'>User validate Sorted Array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Sorted Array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:48 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='120'>User validates LinkList Introduction page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validates LinkList Introduction page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:50 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='132'>User validates Creating Linked List page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validates Creating Linked List page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:52 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='141'>User validate Types of Linked List page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Types of Linked List page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:54 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='150'>User validate Implement Linked List in Python page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Implement Linked List in Python page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:56 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='159'>User validate Traversal page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Traversal page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:58 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='168'>User validate Insertion page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Insertion page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:59 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='177'>User validate Deletion page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Deletion page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:01 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='187'>User validates Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Stack page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:03 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='199'>User validates Implementation page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Implementation page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:04 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='208'>User validates Applications page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Applications page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:06 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='218'>User validates Implementation of Queue in Python page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation of Queue in Python page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:07 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='229'>User validates Implementation using collections.deque page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation using collections.deque page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:08 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='238'>User validates Implementation using array page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation using array page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:09 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='247'>User validates Queue Operations page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Queue Operations page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:11 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='257'>User validates Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Tree page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:12 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='269'>User validates Terminologies page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Terminologies page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:14 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='278'>User validates Types of Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Types of Trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:15 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='287'>User validates Tree Traversals page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Tree Traversals page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:16 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='296'>User validates Traversals-Illustration page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Traversals-Illustration page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:17 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='305'>User validates Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Binary Trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:18 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='314'>User validate Types of Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Types of Binary Trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:19 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='323'>User validate Implementation in Python page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation in Python page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:21 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='332'>User validate Binary Tree Traversals page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Binary Tree Traversals page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:22 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='341'>User validate Implementation of Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation of Binary Trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:23 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='350'>User validate Applications of Binary trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Applications of Binary trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:24 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='359'>User validate Binary Search Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Binary Search Trees page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:26 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='368'>User validate Implementation Of BST page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation Of BST page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:27 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='377' id='378'>User validates Get Started On Graph page</a>
+<div class="">
+<span class="badge badge-default">Graph.User validates Get Started On Graph page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:28 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='377' id='389'>User validate Graph Representations page</a>
+<div class="">
+<span class="badge badge-default">Graph.User validate Graph Representations page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@tag1</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag1</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:21 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='13' id='15'>Create a new user via the dsportalapp Portal</a>
+<div class="">
+<span class="badge badge-default">Register.Create a new user via the dsportalapp Portal</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:27 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='24' id='26'>Sign In with the Registered user in dsportalapp Portal</a>
+<div class="">
+<span class="badge badge-default">Login.Sign In with the Registered user in dsportalapp Portal</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeBinary</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeBinary</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:17 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='305'>User validates Binary Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Binary Trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeBinarySearch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeBinarySearch</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:24 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='359'>User validate Binary Search Trees page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Binary Search Trees page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarrayapplications</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarrayapplications</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:41 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='78'>User validate Applications of Array page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Applications of Array page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeTerminologies</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeTerminologies</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:12 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='269'>User validates Terminologies page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Terminologies page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeBinaryTraversals</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeBinaryTraversals</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:21 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='332'>User validate Binary Tree Traversals page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Binary Tree Traversals page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeBST</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeBST</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:26 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='368'>User validate Implementation Of BST page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validate Implementation Of BST page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraypracticemax</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraypracticemax</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:44 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='98'>User validates Max Consecutive Ones page</a>
+<div class="">
+<span class="badge badge-default">Array.User validates Max Consecutive Ones page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagHome</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagHome</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:18 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User validates Home page</a>
+<div class="">
+<span class="badge badge-default">HomePage.User validates Home page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtree</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtree</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:11 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='257'>User validates Tree page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Tree page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagInsertion</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagInsertion</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:58 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='119' id='168'>User validate Insertion page</a>
+<div class="">
+<span class="badge badge-default">Linklist.User validate Insertion page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagtreeIllustration</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagtreeIllustration</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:16 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='256' id='296'>User validates Traversals-Illustration page</a>
+<div class="">
+<span class="badge badge-default">Tree.User validates Traversals-Illustration page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagarraylist</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagarraylist</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:39 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='47' id='60'>User validate Arrays using list page</a>
+<div class="">
+<span class="badge badge-default">Array.User validate Arrays using list page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagImplementationdeque</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagImplementationdeque</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:07 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='217' id='229'>User validates Implementation using collections.deque page</a>
+<div class="">
+<span class="badge badge-default">Queue.User validates Implementation using collections.deque page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tagStackOperations</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tagStackOperations</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:01 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='186' id='187'>User validates Stack page</a>
+<div class="">
+<span class="badge badge-default">Stack.User validates Stack page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 23, 2023 09:21:14 p.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 23, 2023 09:22:30 p.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>10</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>42</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>301</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"HomePage":2.408,"Register":6.465,"Login":1.549,"DataStructure":7.654,"Array":11.11,"Linklist":13.313,"Stack":4.395,"Queue":4.902,"Tree":16.289,"Graph":2.52
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@tagarraypracticesquare</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeImplementation</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagDataStructure</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagStackImplementation</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeImplementationBinary</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraybasic</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagimplementlist</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagcreatelink</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagTraversal</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraypracticeeven</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagImplementationOperations</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagLogin</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeApplications</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagDeletion</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeBinaryTrees</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagRegistration</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarray</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@taglinkedlist</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraypractice</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagImplementationarray</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagStackApplications</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraypracticesearch</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@taggraph</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@taggraphrep</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeTypes</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@taglinkIntro</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagImplementation</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeTraversals</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeBinary</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeBinarySearch</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarrayapplications</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeTerminologies</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeBinaryTraversals</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeBST</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraypracticemax</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagHome</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtree</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagInsertion</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagtreeIllustration</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagarraylist</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagImplementationdeque</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tagStackOperations</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Engineer</td>
+<td>Vasanthi</td>
+</tr>
+<tr>
+<td>Project</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Google Chrome</td>
+</tr>
+<tr>
+<td>os</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 42,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 301,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
